@@ -1,0 +1,4 @@
+---
+ssh_port: 10022
+pid_file: './tmp/pi.pid'
+img_file: './images/2015-02-16-raspbian-wheezy.img'
