@@ -12,7 +12,7 @@ Setup Instructions
 -------------------
 
 You will need a raspberry pi image. I've only tested this with Raspbian.
-Download it from the pi (downloads)[http://www.raspberrypi.org/downloads/] page,
+Download it from the pi [downloads](http://www.raspberrypi.org/downloads/) page,
 exctract the directory you've cloned this repo into, and edit `boot_vm.sh` to point
 to your image.
 
