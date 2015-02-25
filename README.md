@@ -12,9 +12,9 @@ Setup Instructions
 -------------------
 
 You will need a raspberry pi image. I've only tested this with Raspbian.
-Download it from the pi [downloads](http://www.raspberrypi.org/downloads/) page,
-exctract the directory you've cloned this repo into, and edit `boot_vm.sh` to point
+Download it from the [pi downloads](http://www.raspberrypi.org/downloads/) page,
+exctract the directory you've cloned this repo into, and edit `config.yml` to point
 to your image.
 
-When you're ready, first run `setup_qemu.sh`, then run `boot_vm.sh`. This should work,
+When you're ready, first run `setup_qemu.sh`, then run `rake boot`. This should work,
 but if it doesn't, use the sites referenced above to troubleshoot.
