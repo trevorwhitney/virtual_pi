@@ -3,18 +3,17 @@ Raspberry Pi Emulation Environment
 
 Raspberry Pi emulation environment for OS X.
 
-Built with help from the following:
-* https://github.com/psema4/pine/wiki/Installing-QEMU-on-OS-X
-* http://xecdesign.com/qemu-emulating-raspberry-pi-the-easy-way/
-
-
 Setup Instructions
 -------------------
 
-You will need a raspberry pi image. I've only tested this with Raspbian.
-Download it from the [pi downloads](http://www.raspberrypi.org/downloads/) page,
-exctract the directory you've cloned this repo into, and edit `config.yml` to point
-to your image.
+1. Run `rake install`
+1. Run `rake boot`
 
-When you're ready, first run `setup_qemu.sh`, then run `rake boot`. This should work,
-but if it doesn't, use the sites referenced above to troubleshoot.
+This should work, but if it doesn't, use the sites referenced below to troubleshoot.
+
+Acknowledgements
+----------------
+
+Thanks to the following resources for helping me build this:
+* https://github.com/psema4/pine/wiki/Installing-QEMU-on-OS-X
+* http://xecdesign.com/qemu-emulating-raspberry-pi-the-easy-way/
